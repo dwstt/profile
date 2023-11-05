@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Vo Dinh Dung</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+			integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<script>
+			// disable right click
+			document.addEventListener('contextmenu', event => event.preventDefault());
+		 
+			document.onkeydown = function (e) {
+		 
+				// disable F12 key
+				if(e.keyCode == 123) {
+					return false;
+				}
+		 
+				// disable I key
+				if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
+					return false;
+				}
+		 
+				// disable J key
+				if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+					return false;
+				}
+		 
+				// disable U key
+				if(e.ctrlKey && e.keyCode == 85) {
+					return false;
+				}
+			}
+		 
+		</script>
+		
+		<div class="card">
+			<div class="card__img">
+				<img src="dunggg.jpg" alt="" />
+			</div>
+			<h2>𝐕𝐨 𝐃𝐢𝐧𝐡 𝐃𝐮𝐧𝐠</h2>
+			
+			<div class="card__social">
+				<a target="_black" href="https://www.facebook.com/dwstt6/">
+					<i class="fab fa-facebook-f"></i>
+				</a>
+				
+				
+			</div>
+			<!--<button>Contact me</button>-->
+		</div>
+	</body>
+</html>
